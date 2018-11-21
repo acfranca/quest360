@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4131954-5DE1-4E65-B9C4-0788C4A0E1AF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication</RootNamespace>
+    <AssemblyName>WebApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="_WebControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Biblioteca\WebControls\_WebControls\bin\Release\_WebControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Acesso.aspx" />
+    <Content Include="Aplicacao\assets\css\font-awesome.min.css" />
+    <Content Include="Aplicacao\assets\css\grid.css" />
+    <Content Include="Aplicacao\assets\css\ie8.css" />
+    <Content Include="Aplicacao\assets\css\ie9.css" />
+    <Content Include="Aplicacao\assets\css\images\ie\grad0-15.svg" />
+    <Content Include="Aplicacao\assets\css\images\overlay.png" />
+    <Content Include="Aplicacao\assets\css\main.css" />
+    <Content Include="Aplicacao\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Aplicacao\assets\js\controller.form.js" />
+    <Content Include="Aplicacao\assets\js\controller.bll.js" />
+    <Content Include="Aplicacao\assets\js\controller.crud.js" />
+    <Content Include="Aplicacao\assets\js\ie\backgroundsize.min.htc" />
+    <Content Include="Aplicacao\assets\js\controller.load.js" />
+    <Content Include="Aplicacao\assets\js\ie\html5shiv.js" />
+    <Content Include="Aplicacao\assets\js\ie\PIE.htc" />
+    <Content Include="Aplicacao\assets\js\ie\respond.min.js" />
+    <Content Include="Aplicacao\assets\js\jquery.maskMoney.min.js" />
+    <Content Include="Aplicacao\assets\js\jquery.min.js" />
+    <Content Include="Aplicacao\assets\js\jquery.scrolly.min.js" />
+    <Content Include="Aplicacao\assets\js\jquery.scrollzer.min.js" />
+    <Content Include="Aplicacao\assets\js\main.js" />
+    <Content Include="Aplicacao\assets\js\skel.min.js" />
+    <Content Include="Aplicacao\assets\js\util.js" />
+    <Content Include="Aplicacao\images\avatar.jpg" />
+    <Content Include="Aplicacao\images\banner.jpg" />
+    <Content Include="Aplicacao\images\favicon.ico" />
+    <Content Include="Aplicacao\images\pic02.jpg" />
+    <Content Include="Aplicacao\images\pic03.jpg" />
+    <Content Include="Aplicacao\images\pic04.jpg" />
+    <Content Include="Aplicacao\images\pic05.jpg" />
+    <Content Include="Aplicacao\images\pic06.jpg" />
+    <Content Include="Aplicacao\images\pic07.jpg" />
+    <Content Include="Aplicacao\images\pic08.jpg" />
+    <Content Include="Aplicacao\Start.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Aplicacao\assets\js\jquery.maskedinput.js" />
+    <Content Include="library\css\main.css" />
+    <Content Include="library\css\util.css" />
+    <Content Include="library\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="library\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="library\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="library\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="library\fonts\iconic\css\material-design-iconic-font.css" />
+    <Content Include="library\fonts\iconic\css\material-design-iconic-font.min.css" />
+    <Content Include="library\fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="library\fonts\montserrat\OFL.txt" />
+    <Content Include="library\images\bg-01.jpg" />
+    <Content Include="library\images\icons\favicon.ico" />
+    <Content Include="library\images\img-01.png" />
+    <Content Include="library\images\logo.png" />
+    <Content Include="library\js\main.js" />
+    <Content Include="library\vendor\animate\animate.css" />
+    <Content Include="library\vendor\animsition\css\animsition.css" />
+    <Content Include="library\vendor\animsition\css\animsition.min.css" />
+    <Content Include="library\vendor\animsition\js\animsition.js" />
+    <Content Include="library\vendor\animsition\js\animsition.min.js" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="library\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="library\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="library\vendor\bootstrap\js\popper.js" />
+    <Content Include="library\vendor\bootstrap\js\popper.min.js" />
+    <Content Include="library\vendor\bootstrap\js\tooltip.js" />
+    <Content Include="library\vendor\countdowntime\countdowntime.js" />
+    <Content Include="library\vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="library\vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="library\vendor\daterangepicker\daterangepicker.css" />
+    <Content Include="library\vendor\daterangepicker\daterangepicker.js" />
+    <Content Include="library\vendor\daterangepicker\moment.js" />
+    <Content Include="library\vendor\daterangepicker\moment.min.js" />
+    <Content Include="library\vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="library\vendor\noui\nouislider.css" />
+    <Content Include="library\vendor\noui\nouislider.js" />
+    <Content Include="library\vendor\noui\nouislider.min.css" />
+    <Content Include="library\vendor\noui\nouislider.min.js" />
+    <Content Include="library\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="library\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="library\vendor\select2\select2.css" />
+    <Content Include="library\vendor\select2\select2.js" />
+    <Content Include="library\vendor\select2\select2.min.css" />
+    <Content Include="library\vendor\select2\select2.min.js" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\jquery.bxslider.css" />
+    <Content Include="css\jquery.cslider.css" />
+    <Content Include="css\pluton-ie7.css" />
+    <Content Include="css\pluton.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\pluton.svg" />
+    <Content Include="images\About.png" />
+    <Content Include="images\brand-bg.png" />
+    <Content Include="images\bx_loader.gif" />
+    <Content Include="images\Client1.png" />
+    <Content Include="images\Client2.png" />
+    <Content Include="images\Client3.png" />
+    <Content Include="images\clients\ClientLogo01.png" />
+    <Content Include="images\clients\ClientLogo02.png" />
+    <Content Include="images\clients\ClientLogo03.png" />
+    <Content Include="images\clients\ClientLogo04.png" />
+    <Content Include="images\clients\ClientLogo05.png" />
+    <Content Include="images\clients\ClientLogo06.png" />
+    <Content Include="images\clients\ClientLogo07.png" />
+    <Content Include="images\clients\ClientLogo08.png" />
+    <Content Include="images\clients\ClientLogo09.png" />
+    <Content Include="images\fs.spinner.gif" />
+    <Content Include="images\iBook.png" />
+    <Content Include="images\ico\apple-touch-icon-114.png" />
+    <Content Include="images\ico\apple-touch-icon-144.png" />
+    <Content Include="images\ico\apple-touch-icon-57.png" />
+    <Content Include="images\ico\apple-touch-icon-72.png" />
+    <Content Include="images\ico\favicon.ico" />
+    <Content Include="images\iMac.png" />
+    <Content Include="images\Ipad.png" />
+    <Content Include="images\iPhone.png" />
+    <Content Include="images\Left.png" />
+    <Content Include="images\logo-OLD.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\nav-icon.png" />
+    <Content Include="images\Portfolio01.png" />
+    <Content Include="images\Portfolio02.png" />
+    <Content Include="images\Portfolio03.png" />
+    <Content Include="images\Portfolio04.png" />
+    <Content Include="images\Portfolio05.png" />
+    <Content Include="images\Portfolio06.png" />
+    <Content Include="images\Portfolio07.png" />
+    <Content Include="images\Portfolio08.png" />
+    <Content Include="images\Portfolio09.png" />
+    <Content Include="images\Right.png" />
+    <Content Include="images\Service1.png" />
+    <Content Include="images\Service2.png" />
+    <Content Include="images\Service3.png" />
+    <Content Include="images\Slider.png" />
+    <Content Include="images\Slider01-OLD.png" />
+    <Content Include="images\Slider01.png" />
+    <Content Include="images\Slider02-OLD.png" />
+    <Content Include="images\Slider02.png" />
+    <Content Include="images\Slider03-OLD.png" />
+    <Content Include="images\Slider03.png" />
+    <Content Include="images\Team1.png" />
+    <Content Include="images\Team2.png" />
+    <Content Include="images\Team3.png" />
+    <Content Include="js\app.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\jquery.bxslider.js" />
+    <Content Include="js\jquery.cslider.js" />
+    <Content Include="js\jquery.inview.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mixitup.js" />
+    <Content Include="js\jquery.placeholder.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\sendmail.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acesso.aspx.cs">
+      <DependentUpon>Acesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Acesso.aspx.designer.cs">
+      <DependentUpon>Acesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacao\Start.aspx.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacao\Start.aspx.designer.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="library\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="library\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="library\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="library\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="library\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="library\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="library\fonts\iconic\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="library\fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="library\fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="library\fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="library\fonts\montserrat\Montserrat-Black.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-BlackItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-Bold.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-BoldItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-ExtraBold.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-ExtraLight.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-Italic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-Light.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-LightItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-Medium.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-MediumItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-Regular.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-SemiBold.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-Thin.ttf" />
+    <Content Include="library\fonts\montserrat\Montserrat-ThinItalic.ttf" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="library\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Aplicacao\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Aplicacao\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Aplicacao\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Aplicacao\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Aplicacao\assets\fonts\FontAwesome.otf" />
+    <Content Include="Aplicacao\assets\sass\ie8.scss" />
+    <Content Include="Aplicacao\assets\sass\ie9.scss" />
+    <Content Include="Aplicacao\assets\sass\libs\_functions.scss" />
+    <Content Include="Aplicacao\assets\sass\libs\_mixins.scss" />
+    <Content Include="Aplicacao\assets\sass\libs\_skel.scss" />
+    <Content Include="Aplicacao\assets\sass\libs\_vars.scss" />
+    <Content Include="Aplicacao\assets\sass\main.scss" />
+    <None Include="Properties\PublishProfiles\QuestRep.pubxml" />
+    <Content Include="fonts\pluton.eot" />
+    <Content Include="fonts\pluton.ttf" />
+    <Content Include="fonts\pluton.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_BackEnd\_BackEnd.csproj">
+      <Project>{78bb689e-eb89-4bd3-878d-448b5bf52b3c}</Project>
+      <Name>_BackEnd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60906</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60906/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

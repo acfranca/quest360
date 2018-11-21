@@ -1,0 +1,7 @@
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\bin\Release\_BackEnd.dll
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\bin\Release\_BackEnd.pdb
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\bin\Release\_WebControls.dll
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\bin\Release\_WebControls.pdb
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\obj\Release\_BackEnd.dll
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\obj\Release\_BackEnd.pdb
+C:\Users\Antonio\Documents\Visual Studio 2015\Projects\QuestRep\_BackEnd\obj\Release\_BackEnd.csprojResolveAssemblyReference.cache
